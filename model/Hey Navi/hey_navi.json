@@ -2,7 +2,8 @@
   "type": "micro",
   "wake_word": "Hey Navi",
   "author": "Montisaurus",
-  "model": "./share/Hey_Navi.tflite",
+  "website": "https://github.com/Montisaurus/Custom_V2_MicroWakeWords",
+  "model": "Hey_Navi.tflite",
   "version": 1,
   "micro": {
     "probability_cutoff": 0.5,
@@ -10,3 +11,4 @@
   }
 
 }
+
