@@ -2,7 +2,6 @@
   "type": "micro",
   "wake_word": "Hey Navi",
   "author": "Montisaurus",
-  "website": "https://github.com/Montisaurus/Custom_V2_MicroWakeWords",
   "model": "hey_navi.tflite",
   "trained_languages": [
     "en"
@@ -10,7 +9,6 @@
   "version": 2,
   "micro": {
     "probability_cutoff": 0.9,
-    "feature_step_size": 10,
     "sliding_window_size": 5,
     "tensor_arena_size": 30000,
     "minimum_esphome_version": "2024.7.0"
